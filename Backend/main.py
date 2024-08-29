@@ -32,7 +32,7 @@ faiss_index = None
 context_data = {"transcribed_text": "", "conversation_history": []}
 
 # Groq API configuration
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "<YOUR-API-KEY"
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 class SummarizeRequest(BaseModel):
